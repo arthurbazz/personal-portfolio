@@ -6,3 +6,4 @@ This is my personal portfolio of present projects done from Zuri Training Task
 
 ## Live Version
 The portfolio's live version is [Here](https://arthurbazz.github.io/personal-portfolio/index.html)
+To open link in another tab use CTRL + Click
