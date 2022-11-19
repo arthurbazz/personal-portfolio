@@ -1,10 +1,10 @@
 import React from "react";
-// import "./App.css";
+import "./App.css";
+// import global sccs file
+import "./styles/global.scss";
 
 function MyButton() {
-  return (
-    <button>I'm a button</button>
-  );
+  return <button>I'm a button</button>;
 }
 
 export default function App() {
