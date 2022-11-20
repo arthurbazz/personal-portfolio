@@ -6,4 +6,4 @@ Old portfolio's live version is [Here](https://arthurbazz.github.io/personal-por
 To open link in another tab use CTRL + Click -->
 
 ## Credit
-Credit to
+Credit to [cobiwave](https://github.com/cobiwave).
