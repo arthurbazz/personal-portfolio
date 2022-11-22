@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import Homepage from "./pages/homepage";
 // import global sccs file
 import "./styles/global.scss";
 
@@ -11,9 +11,7 @@ export default function App() {
   return (
     <>
       <h1>Welcome to my App</h1>
-      <MyButton />
+      <Homepage />
     </>
   );
 }
-
-// export default App;
