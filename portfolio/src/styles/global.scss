@@ -1,4 +1,17 @@
-body {
-    font-size: 2em;
-    color: bisque;
+// CSS Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+// import styles
+// @import "./abstracts/bootstrap";
+// @import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./pages/_hero";
+@import "./pages/_about";
+@import "./pages/_projects";
+
+// @import "./components/_navbar";
+// @import "./components/_footer";
