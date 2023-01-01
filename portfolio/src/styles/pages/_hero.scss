@@ -1,0 +1,29 @@
+.hero {
+  background: $background-color;
+  height: $hundred-vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $light-grey;
+  text-align: center;
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  a {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background: #fff;
+      color: #333;
+    }
+  }
+}
