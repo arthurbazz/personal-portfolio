@@ -1,0 +1,22 @@
+// ***** BUTTON STYLE COMPONENT *****
+.btn {
+  font-size: $default-font-size;
+  background-color: transparent;
+  padding: 1.25rem 1.75rem;
+  border: 1px solid $primary-color;
+  border-radius: $border-raduis;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  // transition: 0.3s ease-in-out;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  &:hover {
+    background: $dark-grey;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}
