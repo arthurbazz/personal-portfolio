@@ -1,14 +1,15 @@
-// CSS Reset
+// ***** CSS RESET *****
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-// import styles
+// ***** IMPORT STYLES *****
 // @import "./abstracts/bootstrap";
 // @import "./abstracts/mixins";
 @import "./abstracts/variables";
+@import "./abstracts/buttons";
 @import "./pages/_hero";
 @import "./pages/_about";
 @import "./pages/_projects";

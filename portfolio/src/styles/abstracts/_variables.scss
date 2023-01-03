@@ -1,19 +1,24 @@
-// SCSS Variables
-// Colors
+// ***** VARIABLES FOR THE PORTFOLIO PROJECT by @arthurbazz *****
+
+// COLORS
 $primary-color: #58e0c3;
-$secondary-color: #f2f2f2; //for span
+// $secondary-color: #f2f2f2;
 $background-color: #0a192f;
+$white-color: #fff;
 
 $dark-grey: #65708c; //for text
 $light-grey: #ccd6f6; //for headings
 
-// Fonts
+// FONTS
 $primary-font: "Roboto", sans-serif;
 $secondary-font: "Montserrat", sans-serif;
-$default-font-size: 1.6rem;
-$big-font-size: 4rem;
-$mid-font-size: 2.5rem;
+$default-font-size: 1.2rem;
+$mid-font-size: 2rem;
+$big-font-size: 3rem;
 
-// height
+// HEIGHTS
 $navbar-height: 10rem;
 $hundred-vh: 100vh;
+
+// BUTTONS
+$border-raduis: 4px;

@@ -1,11 +1,12 @@
+// ***** About Me Section Styles *****
+
 .hero {
   background: $background-color;
   height: $hundred-vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: $light-grey;
-  //   text-align: center;
   font-weight: 400;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
@@ -15,24 +16,18 @@
   right: 0;
   z-index: -1;
 
+  .text-color-main {
+    color: $primary-color;
+  }
+
   h1 {
-    font-size: 4rem;
+    font-size: $big-font-size;
     margin-bottom: 1rem;
   }
   p {
-    font-size: 2rem;
+    font-size: $default-font-size;
+    color: $dark-grey;
+    width: 40%;
     margin-bottom: 2rem;
-  }
-  a {
-    font-size: 1.5rem;
-    padding: 1rem 2rem;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: 0.3s ease-in-out;
-    &:hover {
-      background: #fff;
-      color: #333;
-    }
   }
 }
