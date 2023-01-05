@@ -9,14 +9,21 @@
   cursor: pointer;
   display: inline-block;
   position: relative;
-  // transition: 0.3s ease-in-out;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  text-decoration: none;
+  color: $primary-color;
+  transition: all .3s ease 0s;
+  transform: translateX(0px);
   &:hover {
-    background: $dark-grey;
+    background: $primary-color;
+    color: $background-color;
+    border: 1px solid $primary-color;
+    transition: all .3s ease 0s;
+    transform: translateX(-2px);
   }
-
-  a {
-    text-decoration: none;
-    color: $primary-color;
-  }
+  // &:hover {
+  //   background: $dark-grey;
+  //   color: $background-color;
+  //   border: 1px solid $dark-grey;
+  //   transform: translateX(-2px); 
+  // }
 }

@@ -23,11 +23,18 @@ const Hero = () => {
           ReactJS, Django, and Python.
         </p>
 
-        <button className="btn">
+        {/* <button className="btn">
           <a href="#projects" className="">
             Check out my work
           </a>
-        </button>
+        </button> */}
+
+        <div>
+          <a href="/projects">
+            <button className="btn">Check out my work</button>
+          </a>
+        </div>
+
       </div>
     </section>
   );
