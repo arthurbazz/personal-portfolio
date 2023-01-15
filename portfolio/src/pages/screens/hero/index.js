@@ -12,13 +12,13 @@ const Hero = () => {
           HTML, CSS, and Javascript.
         </p> */}
 
-        <h1 class="hero-title">
+        <h1 className="hero-title slide-in">
           Hi, my name is{" "}
-          <span class="text-color-main">Chibuzor Arthur Uzoaru.</span>
+          <span className="text-color-main">Chibuzor Arthur Uzoaru.</span>
           <br />
           I'm a frontend engineer.
         </h1>
-        <p>
+        <p className="slide-in">
           A front-end software engineer with expertise in HTML, CSS, JavaScript,
           ReactJS, Django, and Python.
         </p>
@@ -31,10 +31,9 @@ const Hero = () => {
 
         <div>
           <a href="/projects">
-            <button className="btn">Check out my work</button>
+            <button className="btn slide-in">Check out my work</button>
           </a>
         </div>
-
       </div>
     </section>
   );
