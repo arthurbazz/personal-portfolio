@@ -1,44 +1,33 @@
-// ***** About Me Section Styles *****
-
-.hero {
+// ***** Products Section Styles *****
+.projects {
   background: $background-color;
   height: $hundred-vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   color: $light-grey;
   font-weight: 400;
-  padding: 0rem 5.6rem;
+  padding: 2rem 5.6rem;
   margin-bottom: 0;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  // z-index: -1;
 
   .text-color-main {
     color: $primary-color;
   }
 
-  h1 {
+  .projects-title {
     font-size: $big-font-size;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   p {
     font-size: $default-font-size;
     color: $dark-grey;
-    width: 40%;
     margin-bottom: 2rem;
-  }
-}
-
-.slide-in {
-  animation: slide-in 0.4s forwards;
-  transform: translateY(-100%);
-}
-
-@keyframes slide-in {
-  to {
-    transform: translateY(0);
+    width: 40%;
   }
 }
