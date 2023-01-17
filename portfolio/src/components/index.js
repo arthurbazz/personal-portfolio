@@ -1,7 +1,7 @@
 // components/screens/index.js
+import Header from "./header/header";
 import Hero from "../components/screens/hero";
-import About from "../components/screens/about";
 import Projects from "../components/screens/projects";
+import About from "../components/screens/about";
 
-
-export { Hero, About, Projects };
+export { Header, Hero, Projects, About };
