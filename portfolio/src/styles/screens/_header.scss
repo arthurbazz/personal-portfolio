@@ -1,20 +1,56 @@
 // ***** Header Styles *****
 
-.header {
-  // background: $background-color;
-  // height: $hundred-vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: $light-grey;
-  font-weight: 400;
-  padding: 0rem 5.6rem;
-  // margin-bottom: 0;
-  // top: 0;
-  // left: 0;
-  // bottom: 0;
-  // right: 0;
-  // z-index: -1;
-  // position: fixed;
-  width: 100%;
+.navbar {
+  background-color: $background-color;
+  max-width: 100%;
+  padding: 15px 20px;
+  margin: 0 auto;
+
+  .logo {
+    display: block;
+    flex: none;
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: $primary-color;
+    margin-top: 10px;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    // align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 10px;
+
+    li a {
+      padding: 0 10px;
+      font-size: 1.3em;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      color: $light-grey;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  // sticky navbar
+  .navbar--sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: $background-color;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 }
