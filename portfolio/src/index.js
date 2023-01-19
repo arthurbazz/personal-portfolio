@@ -1,27 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // import './index.css';
 import App from "./App";
-import Projects from "./components/screens/projects";
+// import Projects from "./components/screens/projects";
 import reportWebVitals from "./reportWebVitals";
 
-// create a router to use in the app, to be passed to the RouterProvider
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-  },
-]);
+// // create a router to use in the app, to be passed to the RouterProvider
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element: <App />,
+//   },
+//   {
+//     path: "/projects",
+//     element: <Projects />,
+//   },
+// ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    <App />
   </React.StrictMode>
 );
 
