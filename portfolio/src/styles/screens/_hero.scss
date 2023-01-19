@@ -20,6 +20,14 @@
     color: $primary-color;
   }
 
+  .wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 50% 120%;
+  }
+
   h1 {
     font-size: $big-font-size;
     margin-bottom: 1rem;
