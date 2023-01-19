@@ -2,10 +2,11 @@
 // ********** Projects section **********
 import React from "react";
 // import { Link } from "react-router-dom";
+import { projectsHeader } from "../../../portfolio";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" id='projects'>
       <div className="projects-text">
         <h1 className="projects-title">
           Projects.

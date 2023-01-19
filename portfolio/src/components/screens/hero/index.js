@@ -1,7 +1,9 @@
 // components/screens/hero/index.js
 // ********** Hero section **********
 import React from "react";
-import { Link } from "react-router-dom";
+import { greeting } from "../../../portfolio";
+// import { Link } from "react-router-dom";
+import emoji from "react-easy-emoji";
 
 const Hero = () => {
   return (
@@ -9,7 +11,8 @@ const Hero = () => {
       <div className="hero-text">
         <h1 className="hero-title slide-in">
           Hi, my name is{" "}
-          <span className="text-color-main">Chibuzor Arthur Uzoaru.</span>
+          <span className="text-color-main">{greeting.name}.</span>
+          <span className="wave-emoji">{emoji("👋")}</span>
           <br />
           I'm a frontend engineer.
         </h1>
@@ -18,9 +21,9 @@ const Hero = () => {
           ReactJS, Django, and Python.
         </p>
         <div>
-          <Link to="/projects">
+          {/* <Link to="/projects">
             <button className="btn slide-in">Check out my work</button>
-          </Link>
+          </Link> */}
           {/* <a href="/projects">
             <button className="btn slide-in">Check out my work</button>
           </a> */}
