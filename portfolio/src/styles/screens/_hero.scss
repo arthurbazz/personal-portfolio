@@ -20,12 +20,13 @@
     color: $primary-color;
   }
 
+  // ***** Hero Section wave emoji *****
   .wave-emoji {
-    animation-duration: 1.8s;
-    animation-iteration-count: infinite;
-    animation-name: wave;
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 150% 150%; /* Pivot around the bottom-left palm */
     display: inline-block;
-    transform-origin: 50% 120%;
   }
 
   h1 {
@@ -45,8 +46,37 @@
   transform: translateY(-100%);
 }
 
+// ***** slide in animation Keyframes *****
 @keyframes slide-in {
   to {
     transform: translateY(0);
+  }
+}
+
+// ***** wave animation Keyframes *****
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
   }
 }

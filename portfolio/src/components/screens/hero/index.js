@@ -10,7 +10,8 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-text">
         <h1 className="hero-title slide-in">
-          Hi, my name is{" "}
+          <span className="salute">Hi, my name is </span>
+          <br />
           <span className="text-color-main">{greeting.name}.</span>
           <span className="wave-emoji">{emoji("👋")}</span>
           <br />

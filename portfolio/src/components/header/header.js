@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <Headroom>
-      <header className="navbar">
+      <header className="navbar navbar--sticky">
         <a href="/" className="logo">
           <span className="logo-name">{greeting.username}</span>
         </a>
