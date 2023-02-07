@@ -13,7 +13,7 @@ const Hero = () => {
           <span className="salute">Hi, my name is </span>
           <br />
           <span className="text-color-main">{greeting.name}.</span>
-          <span className="wave-emoji">{emoji("👋")}</span>
+          <span className="wave-emoji">{emoji("👋🏾")}</span>
           <br />
           I'm a frontend engineer.
         </h1>
